@@ -32,6 +32,8 @@ Before you begin, ensure you have the following:
 - `google_compute_instance`: A compute instance for running applications.
 
 ## Variables
+Please pay attention to variable values, make sure it fits your needs. Change the project and credentials file to your own, also change region and zone to your region and zone, or to your desired region and zone.
+
 - `project`: The GCP project ID.
 - `credentials_file`: Path to your GCP credentials file.
 - `region`: The GCP region for the resources. Default is `us-central1`.
