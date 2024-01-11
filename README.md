@@ -10,12 +10,7 @@ Before you begin, ensure you have the following:
 
 ## Setup
 
-1. **Clone the Repository**:
-   ```sh
-   git clone [REPOSITORY_URL]
-   cd [REPOSITORY_NAME]
-   ```
-2. **GCP Authentication**:
+1. **GCP Authentication**:
    - Create a GCP service account key:
      - Go to the GCP Console.
      - Navigate to "IAM & Admin" > "Service Accounts".
@@ -23,7 +18,7 @@ Before you begin, ensure you have the following:
      - After creating your service account, click "Create Key" and save the JSON file to your project directory.
    - Update `terraform.tf.vars` with the path to your service account key.
 
-3. **Initialize Terraform**:
+2. **Initialize Terraform**:
    Run `terraform init` in your project directory. This will download the necessary providers and initialize the Terraform project.
 
 ## Usage
